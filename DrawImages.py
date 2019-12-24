@@ -22,7 +22,7 @@ if not os.path.isdir('texts'):
     test_text.close()
 
     test_text2 = open('texts/test2.txt', "w")
-    test_text2.write("Second text here\n")
+    test_text2.write("Second text here")
 
 
 def create_image():
